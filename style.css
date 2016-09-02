@@ -1,0 +1,163 @@
+
+@keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+.stage {
+  background: #eaeaed;
+  border-radius: 6px;
+  height: 167px;
+  position: relative;
+  width: 100%;
+}
+.stage:hover .ball {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.stage:active .ball {
+  animation-play-state: paused;
+}
+.ball {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+@keyframes slide3 {
+  0% {
+    
+	left:488px;
+    top: 0;
+    
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 0;
+	top: 0;
+  }
+}
+
+.stage:hover .ball3{
+  animation-name: slide3;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.stage:active .ball3 {
+  animation-play-state: paused;
+}
+.ball3 {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+@keyframes slide2 {
+  0% {
+    
+	left: 515px;
+    top: 0;
+    
+  }
+  50% {
+    left: 732px;
+    top: 100px;
+  }
+  100% {
+    left: 976;
+	top: 0;
+  }
+}
+
+.stage:hover .ball2{
+  animation-name: slide2;
+  animation-duration: 2.4s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.stage:active .ball2 {
+  animation-play-state: paused;
+}
+.ball2 {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes slide4 {
+  0% {
+    
+	left: 976;
+	top: 0;
+	
+    
+  }
+  50% {
+    left: 732px;
+    top: 100px;
+  }
+  100% {
+    left: 515px;
+    top: 0;
+  }
+}
+
+.stage:hover .ball4{
+  animation-name: slide4;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.stage:active .ball4 {
+  animation-play-state: paused;
+}
+.ball4 {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
